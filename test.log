@@ -442,6 +442,7 @@ Key: 'HandleCreateDaoReq.ThemeColor' Error:Field validation for 'ThemeColor' fai
 2022-12-14T18:39:35.525+0800	DEBUG	handler/handle_task.go:540	GetTaskInfo  	{"filter": "id=8"}
 2022-12-14T18:39:42.332+0800	ERROR	handler/handle_task.go:478	HandleOperateTask CreateDao failed	{"res": {"status":1,"message":"err_param","data":null}}
 2022-12-14T18:39:58.230+0800	DEBUG	handler/handle_task.go:540	GetTaskInfo  	{"filter": "id=8"}
+<<<<<<< HEAD
 2023-01-09T16:24:04.912+0800	INFO	configs/config.go:48	InitConfig success	{"Conf": {"http":":8090","mysql":{"dsn":"root:123456@tcp(43.153.209.106:3306)/USER?charset=utf8mb4&parseTime=true&timeout=10s&readTimeout=30s&writeTimeout=30s","max_open_count":0,"max_idle_count":0,"tracing":false},"mongo":{"db":"user-base","uri":"mongodb://admin:123456@localhost:27017/?authSource=admin","tracing":false}}}
 2023-01-09T16:24:04.912+0800	INFO	freebe-server/main.go:22	InitConfig success	{"Conf": {"http":":8090","mysql":{"dsn":"root:123456@tcp(43.153.209.106:3306)/USER?charset=utf8mb4&parseTime=true&timeout=10s&readTimeout=30s&writeTimeout=30s","max_open_count":0,"max_idle_count":0,"tracing":false},"mongo":{"db":"user-base","uri":"mongodb://admin:123456@localhost:27017/?authSource=admin","tracing":false}}}
 2023-01-09T16:24:04.912+0800	INFO	service/service.go:63	using UTC timezone for parseTime
@@ -517,3 +518,4 @@ Key: 'HandleCreateDaoReq.ThemeColor' Error:Field validation for 'ThemeColor' fai
 2023-01-10T16:32:10.895+0800	DEBUG	handler/handle_task.go:549	GetTaskInfo  	{"filter": "id=8"}
 2023-01-10T16:32:11.140+0800	ERROR	handler/handle_task.go:555	GetTaskInfo  failed : conds is nil	{"filter": "id=8"}
 2023-01-10T16:32:11.140+0800	ERROR	handler/handle_task.go:478	HandleOperateTask TaskOperate failed	{"res": {"status":1,"message":"err_internal","data":null}}
+
